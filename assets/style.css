@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+ body {
+    margin: 0;
+    padding: 0;
+    background: url("https://hdwallsource.com/img/2018/2/funny-rick-and-morty-wallpaper-63911-66052-hd-wallpapers.jpg") no-repeat bottom center fixed;
+    height: 97vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-container {
+    height: 400px;
+    width: 600px;
+    border: #f0f0f07d solid 4px;
+    border-radius: 25px;
+    background: #f0f0f07d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#img {
+    height: 175px;
+    border-radius: 25px;
+}
+#title {
+    color: #f0f0f0;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 40px;
+}
+
+#button {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
